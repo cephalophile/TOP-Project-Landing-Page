@@ -3,5 +3,37 @@ body{
     text-align: center;
 }
 
+.container{
+    max-width: 809px;
+    margin: auto;
+}
+
 .header{
+    background-color: purple;
+    padding: 20px 50px 10px 50px;
+}
+
+h2{
+    margin: 0;
+    display: -webkit-inline-flex;
+display: -ms-inline-flexbox;
+display: inline-flex;
+    display: inline;
+}
+
+#header-logo{
+    width: 50%;
+}
+
+.navSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
