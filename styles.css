@@ -5,11 +5,11 @@ body{
 
 .header{
     background-color: #1F2937;
-    padding: 20px 50px 10px 50px;
+    padding: 10px 50px 100px 50px;
 }
 
 .container{
-    max-width: 809px;
+   max-width: 900px;
     margin: auto;
 }
 
@@ -17,10 +17,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
   }
 
 #header-logo{
-    width: 50%;
+    
     color: #F9FAF8;
     size: 24px;
 }
@@ -31,28 +32,44 @@ body{
 }
 
 .hero{
-
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
 }
 
-.heroText{
-    color: #F9FAF8;
-    size: 48px;
+.heroText, .mainTitle, .subtext{
+    text-align: left;
 }
 
 .mainTitle{
-
+    font-family: 'Robot', sans-serif;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: -20px;
 }
 
 .subtext{
-
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: ''
 }
 
-.#signUp{
-
+#sign-up{
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-top: -10px;
 }
 
-.heroImg{
-    
+#hero-img{
+    max-width: 400px;
 }
 
 ul {
