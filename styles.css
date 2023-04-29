@@ -3,26 +3,14 @@ body{
     text-align: center;
 }
 
-.container{
-    max-width: 809px;
-    margin: auto;
-}
-
 .header{
-    background-color: purple;
+    background-color: #1F2937;
     padding: 20px 50px 10px 50px;
 }
 
-h2{
-    margin: 0;
-    display: -webkit-inline-flex;
-display: -ms-inline-flexbox;
-display: inline-flex;
-    display: inline;
-}
-
-#header-logo{
-    width: 50%;
+.container{
+    max-width: 809px;
+    margin: auto;
 }
 
 .navSection {
@@ -30,6 +18,42 @@ display: inline-flex;
     justify-content: space-between;
     align-items: center;
   }
+
+#header-logo{
+    width: 50%;
+    color: #F9FAF8;
+    size: 24px;
+}
+
+.headerLink{
+    color: #E5E7EB;
+    size: 18px;
+}
+
+.hero{
+
+}
+
+.heroText{
+    color: #F9FAF8;
+    size: 48px;
+}
+
+.mainTitle{
+
+}
+
+.subtext{
+
+}
+
+.#signUp{
+
+}
+
+.heroImg{
+    
+}
 
 ul {
     list-style: none;
