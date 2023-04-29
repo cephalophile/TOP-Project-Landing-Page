@@ -78,3 +78,28 @@ ul {
     align-items: center;
     gap: 20px;
 }
+
+#info-title{
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+    font-size: 36px;
+}
+
+.infoBoxContainer{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.infoBox{
+    display: block;
+    text-align: center;
+}
+
+.infoBoxImg{
+    width: 50px;
+    height: 50px;
+    border:#3882F6 3px solid;
+    text-align: center;
+}
